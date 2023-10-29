@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta
+            http-equiv="Content-Security-Policy: script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' https://js.stripe.com">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Visualización 3D</title>
+    </head>
+    <body>
+        <div class="sketchfab-embed-wrapper">
+            <iframe
+                title="Terminator"
+                frameborder="0"
+                allowfullscreen="allowfullscreen"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+                allow="autoplay; fullscreen; xr-spatial-tracking"
+                xr-spatial-tracking="xr-spatial-tracking"
+                execution-while-out-of-viewport="execution-while-out-of-viewport"
+                execution-while-not-rendered="execution-while-not-rendered"
+                web-share="web-share"
+                width="800"
+                height="600"
+                src="https://sketchfab.com/models/848eb2ee7f604aa7953baaf0edc00c22/embed"></iframe>
+        </div>
+        <div id="canvas-container"></div>
+        <script src="tu_script.js"></script>
+    </body>
+</html>
