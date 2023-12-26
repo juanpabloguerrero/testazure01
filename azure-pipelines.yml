@@ -7,7 +7,10 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+#  vmImage: ubuntu-latest
+  name: Azure Pipelines
+  demands:
+   - agent.name -equals "Hosted Agent"
 
 steps:
 - task: UsePythonVersion@0
